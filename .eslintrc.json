@@ -30,6 +30,14 @@
     ],
     "jsx-a11y/click-events-have-key-events": 0
   },
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "@typescript-eslint/no-unused-vars": [2, { "args": "none" }]
+      }
+    }
+  ],
   "settings": {
     "import/extensions": [".ts", ".tsx"],
     "import/resolver": {
